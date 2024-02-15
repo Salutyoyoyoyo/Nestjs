@@ -8,9 +8,9 @@ import {
   Delete,
 } from '@nestjs/common';
 import { CarsService } from './cars.service';
-import { CreateCarDto } from '../dto/create-car.dto';
-import { UpdateCarDto } from '../dto/update-car.dto';
-import { Car } from '../schema/car.schema';
+import { CreateCarDto } from './dto/create-car.dto';
+import { UpdateCarDto } from './dto/update-car.dto';
+import { Car } from '../schema/companySchema';
 
 @Controller('cars')
 export class CarsController {
